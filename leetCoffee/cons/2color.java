@@ -2,7 +2,7 @@ class Solution {
     public boolean possibleBipartition(int N, int[][] dislikes) {
         // 2 color
         // the original 2 color algo only works for connected graph
-        // if dislike exists for a, b, then a and b is not neighbor
+        // if dislike exists for a, b, then a and b is neighbor
         Map<Integer, Set<Integer>> map = new HashMap<>();
         for (int i = 0; i < dislikes.length; i++) {
             if (map.containsKey(dislikes[i][0]-1)) {
@@ -17,26 +17,27 @@ class Solution {
         int[][] graph = new int[N][N];
         int[] color = new int[N];
         color[0] = 1; // color 1, 2
-    for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) {
             Set<Integer> iset = null;
             if (map.containsKey(i)) {
                 iset = map.get(i);
                 for (int j = 0; j < N; j++) {
-                    if (graph[i][j] == -1) {
+                    if (graph[i][j] == 1) {
+                        // connected if dislike
                         continue;
                     }
                     if (iset.contains(j)) {
-                        graph[i][j] = -1;
-                        graph[j][i] = -1;
-                    } else {
                         graph[i][j] = 1;
+                        graph[j][i] = 1;
+                    } else {
+                        graph[i][j] = -1;
                     }
                 }
             } else {
                 for (int j = 0; j < N; j++) {
                     if (graph[i][j] == 0)
                     {
-                        graph[i][j] = 1; // connected
+                        graph[i][j] = -1; // disconnected
                     }
                 }
             }
@@ -46,8 +47,9 @@ class Solution {
             System.out.println(Arrays.toString(graph[i]));
         }
 
+        // if the graph is not connected,
 
-
+        // if the graph is connected, we can check by coloring
         // coloring
         LinkedList<Integer>q = new LinkedList<Integer>();
         // start from the first person
