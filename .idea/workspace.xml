@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1810a23-ca31-4405-8668-7f33c04369e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_336.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con96_01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con96_02.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con96_03.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_724.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con97_00.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con97_01.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con97_02.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetleet.iws" />
@@ -36,51 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leet_371.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetPy/leet_371.py">
+      <file leaf-file-name="leet_con97_02.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetPy/leet_con97_02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leet_648.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetPy/leet_648.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="75" column="52" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leet_336.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetPy/leet_336.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="112" column="52" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leet_con96_02.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetPy/leet_con96_02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="52" column="52" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leet_con96_03.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetPy/leet_con96_03.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -110,6 +70,10 @@
         <option value="$PROJECT_DIR$/leetPy/leet_con96_01.py" />
         <option value="$PROJECT_DIR$/leetPy/leet_con96_02.py" />
         <option value="$PROJECT_DIR$/leetPy/leet_con96_03.py" />
+        <option value="$PROJECT_DIR$/leetPy/leet_724.py" />
+        <option value="$PROJECT_DIR$/leetPy/leet_con97_00.py" />
+        <option value="$PROJECT_DIR$/leetPy/leet_con97_01.py" />
+        <option value="$PROJECT_DIR$/leetPy/leet_con97_02.py" />
       </list>
     </option>
   </component>
@@ -191,58 +155,7 @@
       <recent name="$PROJECT_DIR$/leetPy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.leet_con96_03">
-    <configuration default="false" name="q3_sgd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cs224n-nlp/assignments/assignment1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="assignment1" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cs224n-nlp/assignments/assignment1/q3_sgd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="leet_336" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetPy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="leetleet" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetPy/leet_336.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="leet_con96_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetPy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="leetleet" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetPy/leet_con96_01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.leet_con97_02">
     <configuration default="false" name="leet_con96_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,6 +186,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="leetleet" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetPy/leet_con96_03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="leet_con97_00" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetleet" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetPy/leet_con97_00.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="leet_con97_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetleet" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetPy/leet_con97_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="leet_con97_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetleet" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetPy/leet_con97_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -412,19 +376,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.q3_sgd" />
-      <item index="1" class="java.lang.String" itemvalue="Python.leet_336" />
-      <item index="2" class="java.lang.String" itemvalue="Python.leet_con96_01" />
-      <item index="3" class="java.lang.String" itemvalue="Python.leet_con96_02" />
-      <item index="4" class="java.lang.String" itemvalue="Python.leet_con96_03" />
+      <item index="0" class="java.lang.String" itemvalue="Python.leet_con96_02" />
+      <item index="1" class="java.lang.String" itemvalue="Python.leet_con96_03" />
+      <item index="2" class="java.lang.String" itemvalue="Python.leet_con97_00" />
+      <item index="3" class="java.lang.String" itemvalue="Python.leet_con97_01" />
+      <item index="4" class="java.lang.String" itemvalue="Python.leet_con97_02" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.leet_con96_03" />
-        <item index="1" class="java.lang.String" itemvalue="Python.leet_con96_02" />
-        <item index="2" class="java.lang.String" itemvalue="Python.leet_con96_01" />
-        <item index="3" class="java.lang.String" itemvalue="Python.leet_336" />
-        <item index="4" class="java.lang.String" itemvalue="Python.q3_sgd" />
+        <item index="0" class="java.lang.String" itemvalue="Python.leet_con97_02" />
+        <item index="1" class="java.lang.String" itemvalue="Python.leet_con97_01" />
+        <item index="2" class="java.lang.String" itemvalue="Python.leet_con97_00" />
+        <item index="3" class="java.lang.String" itemvalue="Python.leet_con96_03" />
+        <item index="4" class="java.lang.String" itemvalue="Python.leet_con96_02" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +409,7 @@
     <frame x="0" y="22" width="1440" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10972222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.048611112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -454,7 +418,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26754966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -503,9 +467,14 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="pa" language="Python" />
+        <watch expression="pb" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/leetPy/leet_190.py" />
@@ -589,14 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetPy/leet_con96_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="53" column="52" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetPy/leet_con96_02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -607,8 +568,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetPy/leet_con96_03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetPy/leet_724.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetPy/leet_con96_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="53" column="52" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetPy/leet_con97_00.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="46" column="52" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetPy/leet_con97_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="69" column="52" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="1290" column="0" selection-start-line="1290" selection-start-column="0" selection-end-line="1290" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetPy/leet_con97_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
