@@ -54,6 +54,11 @@ class Solution {
             }
         }
         int k = inDislike.size();
+        
+        // produce the dislike graph (with people that comes with dislikes.
+        // so that this graph is connected - the connected component of the
+        // entire graph including everyone)
+
         // default int arr elem: 0
         int[][] graph = new int[k][k];
         int[] color = new int[k];
@@ -85,10 +90,8 @@ class Solution {
             graph[i][i] = -1;
         }
 
-        // if the graph is not connected,
-
-        // if the graph is connected, we can check by coloring
-        // coloring
+        // if the dislike graph is connected, we can check if the Bipartition
+        // can happen by 2-coloring
         LinkedList<Integer>q = new LinkedList<Integer>();
         // start from the first person
         q.add(0);
