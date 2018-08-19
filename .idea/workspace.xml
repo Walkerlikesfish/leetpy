@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1810a23-ca31-4405-8668-7f33c04369e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_220_duplicate_ele_iii.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con98_00.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con98_01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con98_02.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/leetleet.iml" afterPath="$PROJECT_DIR$/.idea/leetleet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetPy/leet_con98_03.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetleet.iws" />
@@ -48,31 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leet_con98_00.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetPy/leet_con98_00.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leet_con98_01.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetPy/leet_con98_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leet_con98_02.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leet_con98_02.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetPy/leet_con98_02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leet_con98_03.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetPy/leet_con98_03.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -122,6 +107,7 @@
         <option value="$PROJECT_DIR$/leetPy/leet_con98_00.py" />
         <option value="$PROJECT_DIR$/leetPy/leet_con98_01.py" />
         <option value="$PROJECT_DIR$/leetPy/leet_con98_02.py" />
+        <option value="$PROJECT_DIR$/leetPy/leet_con98_03.py" />
       </list>
     </option>
   </component>
@@ -699,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetPy/leet_con97_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetPy/leet_con98_00.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -725,8 +703,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetPy/leet_con98_02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetPy/leet_con97_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetPy/leet_con98_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
