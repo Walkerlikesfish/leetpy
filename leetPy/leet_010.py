@@ -34,11 +34,11 @@ class Solution(object):
                 elif cur_p == '.':
                     d[i][j] = d[i-1][j-1]
                 elif cur_p == '*':
-                    if i>=2 and d[i-2][j]:
+                    if i>=2 and d[i-2][j]: # 0 times
                         d[i][j] = True
-                    if d[i-1][j]:
+                    if d[i-1][j]: # 1 time
                         d[i][j] = True
-                    if d[i][j-1]:
+                    if d[i][j-1]: # 
                         if p[i-2] == '.':
                             d[i][j] = True
                         elif p[i-2] == s[j-1]:

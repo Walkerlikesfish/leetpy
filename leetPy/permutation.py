@@ -71,9 +71,39 @@ class Solution:
             base *= 10
         return res
 
+    def Add(self, num1, num2):
+        # write code here
+        while num2:
+            a = num1 ^ num2  # no carry
+            b = num1 & num2  # carry
+            if b:
+                num1 = a
+                num2 = b << 1
+            else:
+                return a
+
+    def multiply(self, A):
+        # write code here
+        n = len(A)
+        B = [0] * n
+        if not A:
+            return B
+        if n == 1:
+            return A
+        B[0] = 1
+        B[1] = A[0]
+        for ix in range(2, n):
+            B[ix] = B[ix - 1] * A[ix - 1]
+
+        right = A[n-1]
+        for ix in range(n-2, -1, -1):
+            B[ix] *= right
+            right *= A[ix]
+
+        return B
 
 s = Solution()
 
-input_val = 11
-output_val = s.NumberOf1Between1AndN_Solution(input_val)
+input_val = [1,2,3,4,5]
+output_val = s.multiply(input_val)
 print output_val
