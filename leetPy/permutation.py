@@ -71,6 +71,134 @@ class Solution:
             base *= 10
         return res
 
+<<<<<<< HEAD
+    def PrintMinNumber(self, numbers):
+        def cmp_func(a, b):
+            d = int(str(a)+str(b)) - int(str(b)+str(a))
+            if d > 0:
+                return 1
+            elif d < 0:
+                return -1
+            else:
+                return 0
+        numbers.sort(cmp=cmp_func)
+        res = ''
+        for en in numbers:
+            res += str(en)
+        return res
+
+    def GetUglyNumber_Solution(self, index):
+        if index<7:
+            return index
+        d = [0] * index
+        d[0] = 1
+        i2, i3, i5 = 0, 0, 0
+        for ind in range(1,index):
+            d[ind] = min(d[i2]*2, d[i3]*3, d[i5]*5)
+            if d[i2]*2 == d[ind]:
+                i2 += 1
+            if d[i3]*3 == d[ind]:
+                i3 += 1
+            if d[i5]*5 == d[ind]:
+                i5 += 1
+        return d[-1]
+
+    def FirstNotRepeatingChar(self, s):
+        char_map = {}
+        for es in s:
+            if es not in char_map:
+                char_map[es] = 1
+            else:
+                char_map[es] += 1
+        for ies,es in enumerate(s):
+            if char_map[es] == 1:
+                return ies
+
+        return -1
+
+    def GetNumberOfK(self, data, k):
+        n = len(data)
+        lptr = 0
+        rptr = n-1
+        bl = None
+        br = None
+        # find left boundary index
+        while lptr<rptr:
+            midptr = (lptr+rptr)/2
+            if data[midptr] >= k:
+                rptr = midptr
+            else:
+                lptr = midptr+1
+        if data[lptr] == k:
+            bl = lptr
+        lptr = 0
+        rptr = n-1
+        while lptr<rptr:
+            midptr = (lptr+rptr+1)/2
+            if data[midptr] <= k:
+                lptr = midptr
+            else:
+                rptr = midptr - 1
+        if data[rptr] == k:
+            br = rptr
+        print bl, br
+        if bl is not None and br is not None:
+            return br - bl + 1
+        else:
+            return 0
+
+    def LeftRotateString(self, s, n):
+        # write code here
+        if not s:
+            return ""
+        s = list(s)
+        l = 0
+        r = n - 1
+        while l < r:
+            s[l], s[r] = s[r], s[l]
+            l += 1
+            r -= 1
+        l = n
+        r = len(s) - 1
+        while l < r:
+            s[l], s[r] = s[r], s[l]
+            l += 1
+            r -= 1
+        l = 0
+        r = len(s) - 1
+        while l < r:
+            s[l], s[r] = s[r], s[l]
+            l += 1
+            r -= 1
+        return ''.join(s)
+
+
+s = Solution()
+
+input_val = ("yahaha", 1)
+output_val = s.LeftRotateString(input_val[0], input_val[1])
+print output_val
+
+'''
+class Solution {
+public:
+    int GetUglyNumber_Solution(int index) {
+        if (index < 7)return index;
+        vector<int> res(index);
+        res[0] = 1;
+        int t2 = 0, t3 = 0, t5 = 0, i;
+        for (i = 1; i < index; ++i)
+        {
+            res[i] = min(res[t2] * 2, min(res[t3] * 3, res[t5] * 5));
+            if (res[i] == res[t2] * 2)t2++;
+            if (res[i] == res[t3] * 3)t3++;
+            if (res[i] == res[t5] * 5)t5++;
+        }
+        return res[index - 1];
+    }
+};
+'''
+=======
     def Add(self, num1, num2):
         # write code here
         while num2:
@@ -107,3 +235,4 @@ s = Solution()
 input_val = [1,2,3,4,5]
 output_val = s.multiply(input_val)
 print output_val
+>>>>>>> 12cdb4e5e7ad95c67653c6be107b8808a2481cb5
